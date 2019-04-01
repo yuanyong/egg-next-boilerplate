@@ -1,0 +1,71 @@
+{
+  "name": "hub",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "egg": {
+    "typescript": true,
+    "declarations": true
+  },
+  "scripts": {
+    "start": "EGG_SERVER_ENV=prod egg-scripts start --daemon --title=egg-server-hub",
+    "stop": "egg-scripts stop --title=egg-server-hub",
+    "dev": "egg-bin dev",
+    "build": "ets && tsc -p tsconfig.json && cd next && next build",
+    "debug": "egg-bin debug",
+    "test-local": "egg-bin test",
+    "test": "npm run lint -- --fix && npm run test-local",
+    "cov": "egg-bin cov",
+    "tsc": "ets && tsc -p tsconfig.json",
+    "ci": "npm run lint && npm run cov && npm run tsc",
+    "autod": "autod",
+    "lint": "tslint --project . -c tslint.json",
+    "clean": "ets clean"
+  },
+  "dependencies": {
+    "@zeit/next-typescript": "^1.1.1",
+    "dva-no-router": "^1.2.1",
+    "egg": "^2.20.1",
+    "egg-scripts": "^2.11.0",
+    "next": "^8.0.3",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "@types/mocha": "^5.2.6",
+    "@types/next": "^8.0.3",
+    "@types/node": "^11.11.3",
+    "@types/react": "^16.8.8",
+    "@types/react-dom": "^16.8.2",
+    "@types/react-redux": "^7.0.5",
+    "@types/supertest": "^2.0.0",
+    "autod": "^3.0.1",
+    "autod-egg": "^1.1.0",
+    "babel-plugin-dva-hmr": "^0.4.1",
+    "egg-bin": "^4.11.1",
+    "egg-ci": "^1.8.0",
+    "egg-mock": "^3.16.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "next-size": "^2.0.2",
+    "redbox-react": "1.x",
+    "tslib": "^1.9.3",
+    "tslint": "^5.0.0",
+    "tslint-config-egg": "^1.0.0",
+    "typescript": "^3.3.3333"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "ci": {
+    "version": "8"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "eslintIgnore": [
+    "coverage"
+  ],
+  "author": "",
+  "license": "MIT"
+}
