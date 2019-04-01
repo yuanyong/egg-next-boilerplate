@@ -1,4 +1,4 @@
-# HUB
+# egg-next-boilerplate
 
 ## QuickStart
 
