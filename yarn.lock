@@ -1381,11 +1381,6 @@ arg@3.0.0:
   resolved "http://registry.m.jd.com/arg/download/arg-3.0.0.tgz#386c20035dfbeb13e280ca8a1e6868aa17942def"
   integrity sha1-OGwgA1376xPigMqKHmhoqheULe8=
 
-arg@^4.1.0:
-  version "4.1.0"
-  resolved "http://registry.m.jd.com/arg/download/arg-4.1.0.tgz#583c518199419e0037abb74062c37f8519e575f0"
-  integrity sha1-WDxRgZlBngA3q7dAYsN/hRnldfA=
-
 argparse@^1.0.7:
   version "1.0.10"
   resolved "http://registry.m.jd.com/argparse/download/argparse-1.0.10.tgz#bcd6791ea5ae09725e17e5ad988134cd40b3d911"
@@ -1543,6 +1538,27 @@ autod@^3.0.1:
     glob "^7.1.2"
     minimatch "^3.0.4"
     printable "^0.0.3"
+    urllib "^2.25.1"
+
+autod@^3.1.0:
+  version "3.1.0"
+  resolved "http://registry.m.jd.com/autod/download/autod-3.1.0.tgz#5e27278b868b8a13b0a4b6f304ea50ba783f28e9"
+  integrity sha1-Xicni4aLihOwpLbzBOpQung/KOk=
+  dependencies:
+    babel-core "^6.26.0"
+    babel-preset-env "^1.6.1"
+    babel-preset-react "^6.24.1"
+    babel-preset-stage-0 "^6.24.1"
+    co "^4.6.0"
+    colors "^1.1.2"
+    commander "^2.11.0"
+    crequire "^1.8.1"
+    debug "^3.1.0"
+    fs-readdir-recursive "^1.1.0"
+    glob "^7.1.2"
+    minimatch "^3.0.4"
+    printable "^0.0.3"
+    semver "^6.0.0"
     urllib "^2.25.1"
 
 autodll-webpack-plugin@0.4.2:
@@ -3553,10 +3569,10 @@ ee-first@1.1.1, ee-first@^1.1.1, ee-first@~1.1.1:
   resolved "http://registry.m.jd.com/ee-first/download/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-egg-bin@^4.11.1:
-  version "4.12.0"
-  resolved "http://registry.m.jd.com/egg-bin/download/egg-bin-4.12.0.tgz#2e079cce364906364cf6c2b12c421f45ee3461fa"
-  integrity sha1-LgeczjZJBjZM9sKxLEIfRe40Yfo=
+egg-bin@^4.12.1:
+  version "4.12.1"
+  resolved "http://registry.m.jd.com/egg-bin/download/egg-bin-4.12.1.tgz#20003da1eddabc4b4b92cc68cb660a17679e1967"
+  integrity sha1-IAA9oe3avEtLksxoy2YKF2eeGWc=
   dependencies:
     autod "^3.0.1"
     chalk "^2.4.1"
@@ -3566,7 +3582,7 @@ egg-bin@^4.11.1:
     detect-port "^1.2.3"
     egg-ts-helper "^1.22.0"
     egg-utils "^2.4.0"
-    espower-typescript "^9.0.1"
+    espower-typescript "9.0.1"
     globby "^8.0.1"
     inspector-proxy "^1.2.1"
     intelli-espower-loader "^1.0.1"
@@ -3578,7 +3594,7 @@ egg-bin@^4.11.1:
     semver "^5.5.0"
     source-map-support "^0.5.6"
     test-exclude "^5.0.0"
-    ts-node "^8.0.3"
+    ts-node "^7.0.0"
     ypkgfiles "^1.6.0"
 
 egg-ci@^1.8.0:
@@ -3620,7 +3636,7 @@ egg-cookies@^2.2.6:
     scmp "^2.0.0"
     utility "^1.14.0"
 
-egg-core@^4.15.0:
+egg-core@^4.16.1:
   version "4.16.1"
   resolved "http://registry.m.jd.com/egg-core/download/egg-core-4.16.1.tgz#50a8e9ab2f54cc02a1f2460e715aa72d4dc50522"
   integrity sha1-UKjpqy9UzAKh8kYOcVqnLU3FBSI=
@@ -3870,10 +3886,10 @@ egg-watcher@^3.1.0:
     sdk-base "^3.5.0"
     wt "^1.2.0"
 
-egg@^2.20.1:
-  version "2.20.1"
-  resolved "http://registry.m.jd.com/egg/download/egg-2.20.1.tgz#e6ff1fc81cd8863fcdcbb83d700b04554c2cc740"
-  integrity sha1-5v8fyBzYhj/Ny7g9cAsEVUwsx0A=
+egg@^2.20.2:
+  version "2.20.2"
+  resolved "http://registry.m.jd.com/egg/download/egg-2.20.2.tgz#1a532a5850820bd6b864b17d7108287f9656906f"
+  integrity sha1-GlMqWFCCC9a4ZLF9cQgof5ZWkG8=
   dependencies:
     "@types/accepts" "^1.3.5"
     "@types/koa" "^2.0.48"
@@ -3888,7 +3904,7 @@ egg@^2.20.1:
     delegates "^1.0.0"
     egg-cluster "^1.23.0"
     egg-cookies "^2.2.6"
-    egg-core "^4.15.0"
+    egg-core "^4.16.1"
     egg-development "^2.4.2"
     egg-i18n "^2.0.0"
     egg-jsonp "^2.0.0"
@@ -4212,15 +4228,15 @@ espower-source@^2.0.0, espower-source@^2.3.0:
     path-is-absolute "^1.0.0"
     xtend "^4.0.0"
 
-espower-typescript@^9.0.1:
-  version "9.0.2"
-  resolved "http://registry.m.jd.com/espower-typescript/download/espower-typescript-9.0.2.tgz#43148b49d94147d477e54c6a7f7ae2ace086d893"
-  integrity sha1-QxSLSdlBR9R35Uxqf3rirOCG2JM=
+espower-typescript@9.0.1:
+  version "9.0.1"
+  resolved "http://registry.m.jd.com/espower-typescript/download/espower-typescript-9.0.1.tgz#536140750f8509f4bdc5db7461c0bf60052c0658"
+  integrity sha1-U2FAdQ+FCfS9xdt0YcC/YAUsBlg=
   dependencies:
     espower-source "^2.3.0"
     minimatch "^3.0.3"
     source-map-support "^0.5.9"
-    ts-node "^8.0.3"
+    ts-node "^7.0.1"
 
 espower@^2.1.1:
   version "2.1.2"
@@ -4963,6 +4979,11 @@ http-proxy-agent@^2.1.0:
   dependencies:
     agent-base "4"
     debug "3.1.0"
+
+http-status-codes@^1.3.2:
+  version "1.3.2"
+  resolved "http://registry.m.jd.com/http-status-codes/download/http-status-codes-1.3.2.tgz#181dfa4455ef454e5e4d827718fca3936680d10d"
+  integrity sha1-GB36RFXvRU5eTYJ3GPyjk2aA0Q0=
 
 http-status@1.0.1:
   version "1.0.1"
@@ -7322,15 +7343,15 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-dom@^16.8.4:
-  version "16.8.4"
-  resolved "http://registry.m.jd.com/react-dom/download/react-dom-16.8.4.tgz#1061a8e01a2b3b0c8160037441c3bf00a0e3bc48"
-  integrity sha1-EGGo4BorOwyBYAN0QcO/AKDjvEg=
+react-dom@^16.8.6:
+  version "16.8.6"
+  resolved "http://registry.m.jd.com/react-dom/download/react-dom-16.8.6.tgz#71d6303f631e8b0097f56165ef608f051ff6e10f"
+  integrity sha1-cdYwP2MeiwCX9WFl72CPBR/24Q8=
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "^0.13.4"
+    scheduler "^0.13.6"
 
 react-error-overlay@4.0.0:
   version "4.0.0"
@@ -7359,15 +7380,15 @@ react-redux@5.0.7:
     loose-envify "^1.1.0"
     prop-types "^15.6.0"
 
-react@^16.8.4:
-  version "16.8.4"
-  resolved "http://registry.m.jd.com/react/download/react-16.8.4.tgz#fdf7bd9ae53f03a9c4cd1a371432c206be1c4768"
-  integrity sha1-/fe9muU/A6nEzRo3FDLCBr4cR2g=
+react@^16.8.6:
+  version "16.8.6"
+  resolved "http://registry.m.jd.com/react/download/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
+  integrity sha1-rWw6lhT9Ok6e9REX9U2IjaAfK74=
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "^0.13.4"
+    scheduler "^0.13.6"
 
 read-pkg-up@^1.0.1:
   version "1.0.1"
@@ -7746,10 +7767,10 @@ sax@^1.2.4:
   resolved "http://registry.m.jd.com/sax/download/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha1-KBYjTiN4vdxOU1T6tcqold9xANk=
 
-scheduler@^0.13.4:
-  version "0.13.4"
-  resolved "http://registry.m.jd.com/scheduler/download/scheduler-0.13.4.tgz#8fef05e7a3580c76c0364d2df5e550e4c9140298"
-  integrity sha1-j+8F56NYDHbANk0t9eVQ5MkUApg=
+scheduler@^0.13.6:
+  version "0.13.6"
+  resolved "http://registry.m.jd.com/scheduler/download/scheduler-0.13.6.tgz#466a4ec332467b31a91b9bf74e5347072e4cd889"
+  integrity sha1-RmpOwzJGezGpG5v3TlNHBy5M2Ik=
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
@@ -7797,6 +7818,11 @@ sdk-base@^3.1.1, sdk-base@^3.5.0, sdk-base@^3.5.1:
   version "5.6.0"
   resolved "http://registry.m.jd.com/semver/download/semver-5.6.0.tgz#7e74256fbaa49c75aa7c7a205cc22799cac80004"
   integrity sha1-fnQlb7qknHWqfHogXMInmcrIAAQ=
+
+semver@^6.0.0:
+  version "6.0.0"
+  resolved "http://registry.m.jd.com/semver/download/semver-6.0.0.tgz#05e359ee571e5ad7ed641a6eec1e547ba52dea65"
+  integrity sha1-BeNZ7lceWtftZBpu7B5Ue6Ut6mU=
 
 send@0.16.1:
   version "0.16.1"
@@ -8566,7 +8592,7 @@ trim-right@^1.0.1:
   resolved "http://registry.m.jd.com/trim-right/download/trim-right-1.0.1.tgz#cb2e1203067e0c8de1f614094b9fe45704ea6003"
   integrity sha1-yy4SAwZ+DI3h9hQJS5/kVwTqYAM=
 
-ts-node@^7.0.0:
+ts-node@^7.0.0, ts-node@^7.0.1:
   version "7.0.1"
   resolved "http://registry.m.jd.com/ts-node/download/ts-node-7.0.1.tgz#9562dc2d1e6d248d24bc55f773e3f614337d9baf"
   integrity sha1-lWLcLR5tJI0kvFX3c+P2FDN9m68=
@@ -8579,17 +8605,6 @@ ts-node@^7.0.0:
     mkdirp "^0.5.1"
     source-map-support "^0.5.6"
     yn "^2.0.0"
-
-ts-node@^8.0.3:
-  version "8.0.3"
-  resolved "http://registry.m.jd.com/ts-node/download/ts-node-8.0.3.tgz#aa60b836a24dafd8bf21b54766841a232fdbc641"
-  integrity sha1-qmC4NqJNr9i/IbVHZoQaIy/bxkE=
-  dependencies:
-    arg "^4.1.0"
-    diff "^3.1.0"
-    make-error "^1.1.1"
-    source-map-support "^0.5.6"
-    yn "^3.0.0"
 
 tslib@1.9.0:
   version "1.9.0"
@@ -8692,10 +8707,15 @@ typedarray@^0.0.6:
   resolved "http://registry.m.jd.com/typedarray/download/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^3.0.0, typescript@^3.3.3333:
+typescript@^3.0.0:
   version "3.3.4000"
   resolved "http://registry.m.jd.com/typescript/download/typescript-3.3.4000.tgz#76b0f89cfdbf97827e1112d64f283f1151d6adf0"
   integrity sha1-drD4nP2/l4J+ERLWTyg/EVHWrfA=
+
+typescript@^3.4.1:
+  version "3.4.1"
+  resolved "http://registry.m.jd.com/typescript/download/typescript-3.4.1.tgz#b6691be11a881ffa9a05765a205cb7383f3b63c6"
+  integrity sha1-tmkb4RqIH/qaBXZaIFy3OD87Y8Y=
 
 uglify-js@^3.1.4:
   version "3.5.1"

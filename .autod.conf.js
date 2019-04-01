@@ -11,6 +11,7 @@ module.exports = {
   ],
   dep: [
     'egg',
+    'next',
     'egg-scripts',
   ],
   devdep: [
